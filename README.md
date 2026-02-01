@@ -4,7 +4,7 @@
 
 This notebook implements a pipeline for analyzing malware based on syscall patterns. The process involves several key stages:
 
-## 1. Data Loading and Preparation
+## 1. Data Loading and Preparation 
 
 - **Loading Dataset:** Reads the dataset from a CSV file containing the instrumented syscall data. The CSV file is included in this project in zipped form and is extracted automatically when needed.
 - **Dataset Samples Counting:** Counts the number of benign and malware samples in the loaded dataset based on specific separators in the CSV file.
