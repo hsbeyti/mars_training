@@ -1,10 +1,10 @@
----
 
+```markdown
 # Malware Analysis Pipeline based on Syscall Patterns
 
 This notebook implements a pipeline for analyzing malware based on syscall patterns. The process involves several key stages:
 
-## 1. Data Loading and Preparation 
+## 1. Data Loading and Preparation
 
 - **Loading Dataset:** Reads the dataset from a CSV file containing the instrumented syscall data. The CSV file is included in this project in zipped form and is extracted automatically when needed.
 - **Dataset Samples Counting:** Counts the number of benign and malware samples in the loaded dataset based on specific separators in the CSV file.
@@ -27,5 +27,8 @@ This notebook implements a pipeline for analyzing malware based on syscall patte
 - **Heatmap Visualization:** Creates a heatmap to visually inspect the distribution and patterns of selected features across benign and malware samples.
 - **Class Separation Visualization:** Generates plots and a summary table to highlight the separation between benign and malware classes based on the extracted feature values.
 
----
+## Summary
+
+This structured approach allows for loading, preprocessing, feature engineering, model training, and analysis of syscall data for malware detection.
+```
 
